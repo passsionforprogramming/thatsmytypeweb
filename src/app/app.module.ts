@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { NavigationBarComponent } from './navigation-bar/navigation-bar.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { MatchComponent } from './match/match.component';
+import { SignInComponent } from './sign-in/sign-in.component';
 @NgModule({
   declarations: [
     AppComponent,
     NavigationBarComponent,
     WelcomeComponent,
-    MatchComponent
+    MatchComponent,
+    SignInComponent
   ],
   imports: [
     BrowserModule,
