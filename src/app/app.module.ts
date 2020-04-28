@@ -7,13 +7,15 @@ import { NavigationBarComponent } from './navigation-bar/navigation-bar.componen
 import { WelcomeComponent } from './welcome/welcome.component';
 import { MatchComponent } from './match/match.component';
 import { SignInComponent } from './sign-in/sign-in.component';
+import { SignUpComponent } from './sign-up/sign-up.component';
 @NgModule({
   declarations: [
     AppComponent,
     NavigationBarComponent,
     WelcomeComponent,
     MatchComponent,
-    SignInComponent
+    SignInComponent,
+    SignUpComponent
   ],
   imports: [
     BrowserModule,
