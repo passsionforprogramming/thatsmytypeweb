@@ -1,1 +1,69 @@
 /* You can add global styles to this file, and also import other style files */
+html, body, header, nav, h1, a,
+ul, li, strong, main, button, i,
+section, img, div, h2, p, form,
+fieldset, label, input, textarea,
+span, article, footer, time, small {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font: inherit;
+  color: inherit;
+  text-align: inherit;
+  text-decoration: inherit;
+  vertical-align: inherit;
+  box-sizing: inherit;
+  background: transparent;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Gothic+A1&family=Josefin+Sans&family=Karla&family=Playfair+Display:ital@1&family=Raleway&family=Roboto&display=swap');
+@import "materialize-css/dist/css/materialize.css";
+html, body {
+    height: 100%;
+}
+
+.josefin {
+    font-family: 'Josefin Sans';
+}
+
+.bungee {
+    font-family: 'Bungee Shade';
+}
+
+.full-height {
+    height: 100%;
+}
+
+.color-change {
+    animation: colorTween 60s infinite alternate;
+}
+
+@keyframes colorTween {
+    0% {background-color: #FC4445;}
+    20% {background-color: #dd7564;}
+    40% {background-color: rgb(254,223,61)}
+    60% {background-color: #5CDB95}
+    80% {background-color: #43bff3}
+    100% {background-color: #7C4DFF}
+}
+
+.no-shadows {
+    box-shadow: none!important;
+}
+
+.roboto {
+    font-family: "Roboto";
+}
+
+.outline-btn {
+    font-family: "Josefin Sans";
+    font-size: 3.0em;
+}
+
+.spacer{
+    height: 1em;
+}
+
+.btn-block {
+    width: 100%;
+}
